@@ -7,7 +7,6 @@ from shapely.geometry import shape
 
 n = 0
 
-
 def fetch_walking_time(origin, destination, key, mode, show_fields):
     # 高德API的URL
     https="https://restapi.amap.com/v5/direction"
